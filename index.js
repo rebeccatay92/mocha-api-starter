@@ -12,7 +12,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get('/', function (req, res) {
-  res.send('hello')
+  res.send('TACOWORLD')
 })
 
 app.use('/tacos', tacosController)
